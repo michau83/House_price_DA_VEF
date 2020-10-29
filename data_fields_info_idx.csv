@@ -1,0 +1,79 @@
+,MSSubClass, The building class,d_type
+0,MSZoning, The general zoning classification,object
+1,LotFrontage, Linear feet of street connected to property,float64
+2,LotArea, Lot size in square feet,int64
+3,Street, Type of road access,object
+4,Alley, Type of alley access,object
+5,LotShape, General shape of property,object
+6,LandContour, Flatness of the property,object
+7,Utilities, Type of utilities available,object
+8,LotConfig, Lot configuration,object
+9,LandSlope, Slope of property,object
+10,Neighborhood, Physical locations within Ames city limits,object
+11,Condition1, Proximity to main road or railroad,object
+12,Condition2, Proximity to main road or railroad (if a second is present),object
+13,BldgType, Type of dwelling,object
+14,HouseStyle, Style of dwelling,object
+15,OverallQual, Overall material and finish quality,int64
+16,OverallCond, Overall condition rating,int64
+17,YearBuilt, Original construction date,int64
+18,YearRemodAdd, Remodel date,int64
+19,RoofStyle, Type of roof,object
+20,RoofMatl, Roof material,object
+21,Exterior1st, Exterior covering on house,object
+22,Exterior2nd, Exterior covering on house (if more than one material),object
+23,MasVnrType, Masonry veneer type,object
+24,MasVnrArea, Masonry veneer area in square feet,float64
+25,ExterQual, Exterior material quality,object
+26,ExterCond, Present condition of the material on the exterior,object
+27,Foundation, Type of foundation,object
+28,BsmtQual, Height of the basement,object
+29,BsmtCond, General condition of the basement,object
+30,BsmtExposure, Walkout or garden level basement walls,object
+31,BsmtFinType1, Quality of basement finished area,object
+32,BsmtFinSF1, Type 1 finished square feet,int64
+33,BsmtFinType2, Quality of second finished area (if present),object
+34,BsmtFinSF2, Type 2 finished square feet,int64
+35,BsmtUnfSF, Unfinished square feet of basement area,int64
+36,TotalBsmtSF, Total square feet of basement area,int64
+37,Heating, Type of heating,object
+38,HeatingQC, Heating quality and condition,object
+39,CentralAir, Central air conditioning,object
+40,Electrical, Electrical system,object
+41,1stFlrSF, First Floor square feet,int64
+42,2ndFlrSF, Second floor square feet,int64
+43,LowQualFinSF, Low quality finished square feet (all floors),int64
+44,GrLivArea, Above grade (ground) living area square feet,int64
+45,BsmtFullBath, Basement full bathrooms,int64
+46,BsmtHalfBath, Basement half bathrooms,int64
+47,FullBath, Full bathrooms above grade,int64
+48,HalfBath, Half baths above grade,int64
+49,Bedroom, Number of bedrooms above basement level,
+50,Kitchen, Number of kitchens,
+51,KitchenQual, Kitchen quality,object
+52,TotRmsAbvGrd, Total rooms above grade (does not include bathrooms),int64
+53,Functional, Home functionality rating,object
+54,Fireplaces, Number of fireplaces,int64
+55,FireplaceQu, Fireplace quality,object
+56,GarageType, Garage location,object
+57,GarageYrBlt, Year garage was built,float64
+58,GarageFinish, Interior finish of the garage,object
+59,GarageCars, Size of garage in car capacity,int64
+60,GarageArea, Size of garage in square feet,int64
+61,GarageQual, Garage quality,object
+62,GarageCond, Garage condition,object
+63,PavedDrive, Paved driveway,object
+64,WoodDeckSF, Wood deck area in square feet,int64
+65,OpenPorchSF, Open porch area in square feet,int64
+66,EnclosedPorch, Enclosed porch area in square feet,int64
+67,3SsnPorch, Three season porch area in square feet,int64
+68,ScreenPorch, Screen porch area in square feet,int64
+69,PoolArea, Pool area in square feet,int64
+70,PoolQC, Pool quality,object
+71,Fence, Fence quality,object
+72,MiscFeature, Miscellaneous feature not covered in other categories,object
+73,MiscVal, $Value of miscellaneous feature,int64
+74,MoSold, Month Sold,int64
+75,YrSold, Year Sold,int64
+76,SaleType, Type of sale,object
+77,SaleCondition, Condition of sale,object
